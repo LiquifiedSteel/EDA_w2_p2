@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable named 'name' and assign it the string value "Dane"
+// Then we check if the name is equal to Mary, if it is we console.log() the string "Hi, Mary!"
+// However if the name is not Mary, then we console.log() the string "How do you do?"
+// Since Dane is not equal to Mary, we console.log() "How do you do?"
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable named secret and dont assign it a value, then we make a variable named code and assign it the number value 123
+// Then, if the code is equal to 123 we set secret to the string value 'super' and multiply code by 2
+// Then we check if code is greater than 250, if it is we set secret to the string value of 'duper'
+// Since the value of code times 2 is 246, the second if statement is false and secret keeps the value 'super' which means we console.log 'super'
 
 //CODE
 /*
@@ -70,10 +70,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First we create three variables, isStudent which is set to the boolean value true, age which is set to the number value 34, and zip which is set to the number value 55407
+// Then if isStudent is equal to true and zip is greater than 80000, we console.log "You're a student on the West Coast!"
+// if one of or both of those conditionals are false than we check if isStudent is false or if age is less than 30 where if one of those conditionals are true we console.log "What are your hobbies?"
+// if both of those conditionals are false, then we check if isStudent is equal to true, if it is, then we console.log "Welcome to Prime!"
+// if none of the above are executed, then we console.log "How about the weather?"
+// since zip is not > 80000 the first if statement is not executed, since isStudent is true and age is not less than 30, the second if statement is not run, since isStudent is equal to true
+// the third if statement is run and we console.log 'Welcome to Prime!'
 
 //CODE
 /*
