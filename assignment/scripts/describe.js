@@ -128,9 +128,9 @@ if (number >= 2) {
 
 
 
-//4. We start with three variables -- colorOne is set to 'blue' and 
-// colorTwo is set to 'red', and mix is set to true. We check if mix is true 
-// -- it is, so we set colorOne and colorTwo to 'purple'
+//4. We start with three variables -- colorOne is set to 'red' and 
+// colorTwo is set to 'blue', and mix is set to true. We check if mix is true 
+// -- it is, so we set colorOne to 'purple'
 
 /*
 // colorOne needs to be blue
@@ -150,7 +150,7 @@ if (mix === true) {
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
-// We check if temp is higher than 39 and if time is greater or equal to  4 
+// We check if temp is higher than 39 or if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
 /*
@@ -163,7 +163,7 @@ if (temp > 39 || time >= 4) {
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
-// We check if age is greater than or equal to minAge
+// We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
 /*
