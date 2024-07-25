@@ -116,9 +116,9 @@ if (isStudent === true && zip > 80000 ) {
 /*
 let number = 1;
 
-// FIX - number-- decrements number, but the instructions ask to increment. 
+// FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
-number--; 
+number--;
 
 if (number >= 2) {
   console.log('yes');
@@ -128,44 +128,53 @@ if (number >= 2) {
 
 
 
-//4. We start with three variables -- colorOne is set to 'red' and 
-// colorTwo is set to 'blue', and mix is set to true. We check if mix is true 
-// -- it is, so we set colorOne to 'purple'
+//4. We start with three variables -- colorOne is set to 'blue' and 
+// colorTwo is set to 'red', and mix is set to true. We check if mix is true 
+// -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne needs to be blue
+// should be: let colorOne = 'blue';
 let colorOne = 'red';
+
+// colorOne needs to be red
+// should be: let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // the instructions say both should be purple
+  // needs to add the line: colorTwo = 'purple';
 }
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
-// We check if temp is higher than 39 or if time is greater or equal to  4 
+// We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
 /*
 let temp = 40;
 const time = 4;
-
+// this if statements conditional should be (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
-// We check if minAge is less than or equal to age
-// -- it is, so we console.log 'no entry'.
+// We check if age is greater than or equal to minAge
+// -- it is, so we console.log 'enter'.
 
 /*
 let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+// this console.log should be 'enter', not 'no entry'
   console.log('no entry');
 } else {
+ // this console.log should be 'no entry', not 'enter'
   console.log('enter');
 }
 */
